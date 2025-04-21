@@ -1,24 +1,73 @@
-<<<<<<< HEAD
-# FileCompression-Project-DS
-What is this project about?
+# 📦 FileCompression-Project-DS
 
-This project is about Building an application for Text File Compression using Huffman Coding. Given a a text file as an input, 
-this app will compress the file and then save the file with reduced size. You can also decompress the file using this app into 
-its original form. This app also has some additional features such as: Given a string of alphabetic characters, you can compress 
-the size of its bit sequence to obtain a binary sequence that has size significantly lesser than the original, this new sequence 
-then can be sent through a network or saved in file so that it can be decompressed whenever required.
+## 📝 Project Overview
 
-How it will run, how does it work?
+This project is a desktop-based Java application that performs **Text File Compression and Decompression using Huffman Coding**. Huffman Coding is an efficient greedy algorithm that reduces file size by encoding frequently used characters with shorter binary codes.
 
-In order to run the application, first step is to download all the project files in this branch and then put them in an appropriate folder.
-We have provided an executable .jar as well as .exe file inside the folder named "Executable" in which you will find files named "EncodorGUI.jar" and "Encoder.exe".
-You can click on any one of these to execute the application. (There is also an alternative way to execute the project, you can open the project in any IDE and execute 
-the main method inside the class "EncoderGUI").
-Upon opening the application you will be given an option to browse a file and select it. After you have selected your file, choose the location where you want to 
-save the compressed file. After you have done all these steps you can hit the "Compress" Button to compress your file. For further detailed instructions on how the 
-project works, you can refer to the following video:
+The application allows you to:
+- Compress text files and reduce their size.
+- Decompress files back to their original form.
+- Compress any alphabetic string directly into a binary sequence.
 
-Link: https://youtu.be/S0Wua5WxKZI
-=======
-# file-compression-system
->>>>>>> 96ae439e169ba73b5a0c67cb37e83f1f386af4bc
+---
+
+## 🚀 How It Works
+
+The app uses the **Huffman Tree** to assign binary codes to characters based on their frequency in the input. Characters that appear more frequently are assigned shorter codes, resulting in an overall reduced file size.
+
+### ✅ Features
+- 📂 **Select and Compress**: Browse and compress any text file.
+- 🔁 **Decompress Files**: Restore previously compressed files.
+- 🧾 **String Compression**: Enter a string manually to get its Huffman-encoded binary.
+- 🖥️ **User-Friendly GUI**: Simple and intuitive interface for all actions.
+- 💾 **Save Output**: Choose location to save compressed or decompressed files.
+
+---
+
+## 🛠️ How to Run
+
+### Option 1: Using Pre-Built Executables
+1. Clone or download the repository.
+2. Go to the `Executable/` folder.
+3. Run:
+   - `EncoderGUI.jar` – Works on systems with Java installed.
+   - `Encoder.exe` – Windows executable, no Java required.
+
+### Option 2: From Source Code
+1. Open the project in any Java IDE like IntelliJ IDEA or Eclipse.
+2. Locate the `EncoderGUI.java` file in the `src/` directory.
+3. Run the `main()` method inside `EncoderGUI`.
+
+---
+
+## 🧱 Folder Structure
+
+file-compression-system/ ├── Executable/ │ ├── EncoderGUI.jar │ └── Encoder.exe ├── src/ │ └── (All Java source files including EncoderGUI.java) ├── README.md └── ...
+
+
+
+---
+
+## 💻 Technologies Used
+
+- **Java** – Main programming language
+- **Swing** – For building the GUI
+- **File I/O** – For reading/writing input and output files
+- **Huffman Coding Algorithm** – For compression logic
+
+---
+
+## ✍️ Author
+
+**Swastik Singh Chauhan**
+
+---
+
+## 📜 License
+
+This project is for academic use only. Feel free to explore and modify it as needed.
+
+---
+
+
+
